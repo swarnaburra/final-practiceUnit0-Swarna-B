@@ -1,7 +1,7 @@
 const readline = require("readline-sync");
 
 // ------------------------------------------------------------
-// StyleMate - Fashion App
+// FashionMate - Fashion App
 // ------------------------------------------------------------
 
 // 💡 Pseudocode:
@@ -14,7 +14,7 @@ const readline = require("readline-sync");
 // --------------------------------------------------
 // Values, Data Types, and Operations
 // --------------------------------------------------
-// Stylemate asks user questions about outfit using readline-sync
+// FashionMate asks user questions about outfit using readline-sync
 // We are using strings and numbers to store outfit data and do comparisons.
 
 let outfitColor = readline.question("What's the color of your outfit? (e.g., beige, black, pastel blue): ");
@@ -28,7 +28,7 @@ console.log("Your dress is a " + outfitColor + " for " + outfitType + " and your
 // --------------------------------------------------
 // Using + to concat strings and display a personalized message to the user.
 
-let introMessage = "StyleMate is styling your " + outfitColor + " " + outfitType + " right now!";
+let introMessage = "FashionMate is styling your " + outfitColor + " " + outfitType + " right now!";
 console.log(introMessage);
 
 // --------------------------------------------------
